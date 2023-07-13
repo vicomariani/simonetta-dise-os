@@ -1,0 +1,205 @@
+
+@font-face {
+    font-family: 'Rancho';
+    src: url(Rancho-Regular.ttf);
+} 
+
+@font-face {
+    font-family: 'Arsenal', sans-serif;
+    src: url(Arsenal-Regular.ttf);
+}
+
+
+
+.container {
+    height: 65px;
+    margin-bottom: 15px;
+    background-color: rgb(237, 199, 213);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.navegador {
+    text-decoration: none;
+    color:white;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: bold; 
+    font-size: 18px;
+    margin-right: 50px;  
+}
+
+ a:hover {
+background-color: rgb(255, 235, 242);
+}
+
+.simonetta-diseños {
+    font-family: 'Rancho';
+    color: white;
+    padding-left: 35px;  
+}
+
+.boton-buscar {
+    color: white;
+    font-weight: bold;
+    font-family: 'Arsenal', sans-serif;
+    border: none;
+    background-color: rgb(237, 199, 213);
+}
+
+ button:hover {
+    background-color: rgb(255, 235, 242);
+}
+
+.centrar-img-sub {
+    text-align: center;
+}
+
+.diseñamos-todo {
+    font-family: 'Rancho';
+    font-size: 40px;
+    color: rgb(199, 199, 199);
+    margin-bottom: 15px;
+}
+
+.img-inicio {
+   width: 1320px;
+   height: 450px; 
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+}
+
+.mail {
+    color: rgb(199, 199, 199);
+    font-family: 'Rancho';
+   
+}
+.img-redes {
+    width: 150px;
+    height: 45px;
+    
+}
+
+
+.productos {
+    width: 360px;
+    height: 360px;
+    margin: 10px 30px 10px 30px;
+}
+
+.productos-destacados h2 {
+    font-family: 'Rancho';
+    font-size: 40px;
+    color: rgb(199, 199, 199);   
+   
+}
+
+.productos-destacados p {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 20px;
+    color: rgb(199, 199, 199); 
+}
+
+.centrar {
+    text-align: center;
+}
+
+.venta-mayorista h2 {
+    font-family: 'Rancho';
+    font-size: 40px;
+    color: rgb(199, 199, 199);   
+    margin-top: 30px;
+}
+.venta-mayorista p {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 20px;
+    color: rgb(199, 199, 199); 
+    margin-bottom: 60px;
+}
+
+.condiciones h3 {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(199, 199, 199);   
+    margin-bottom: 25px;
+}
+
+.lista {
+    
+    font-family: 'Arsenal', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(237, 199, 213); 
+    margin-bottom: 10px;
+    
+}
+
+.acceso-catalogo {
+    color: rgb(156, 153, 153);
+    font-family: 'Arsenal', sans-serif;
+    font-size: 18px;
+    border-color: white;
+    margin: 30px;
+}
+
+.codigo-postal {
+    font-family: 'Arsenal', sans-serif;
+    color: gray;
+    font-size: 20px;
+}
+
+.boton-calcular {
+    color: gray;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 18px; 
+    width: 110px;
+    height: 32px;
+    padding: 2px 10px 3px 10px;
+    border-color: white;
+    margin-bottom: 250px; 
+}
+
+.caja {
+    width: 300px;
+    padding: 5px 25px;
+    margin: 5px 0;
+}
+
+.contactanos {
+    font-family: 'Rancho';
+    font-size: 40px;
+    color: rgb(199, 199, 199);   
+    margin-top: 30px; 
+}
+
+.formulario {
+    color: gray;
+    font-size: 16px;
+    font-family: 'Arsenal', sans-serif;
+}
+
+.boton-enviar {
+    color: gray;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 17px;
+    width: 90px;
+    height: 30px;
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
