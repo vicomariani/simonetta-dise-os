@@ -12,7 +12,7 @@
 
 
 .container {
-    height: 65px;
+  
     margin-bottom: 15px;
     background-color: rgb(237, 199, 213);
     display: flex;
@@ -64,7 +64,7 @@ background-color: rgb(255, 235, 242);
     margin-bottom: 15px;
 }
 
-.img-inicio {
+.img-inicio img {
    width: 1320px;
    height: 450px; 
 }
@@ -88,8 +88,8 @@ background-color: rgb(255, 235, 242);
 }
 
 
-.productos {
-    width: 360px;
+.productos img {
+    width: 350px;
     height: 360px;
     margin: 10px 30px 10px 30px;
 }
@@ -132,8 +132,8 @@ background-color: rgb(255, 235, 242);
     margin-bottom: 25px;
 }
 
-.lista {
-    
+.lista li {
+    list-style: none;
     font-family: 'Arsenal', sans-serif;
     font-size: 23px;
     font-weight: bold;
@@ -201,5 +201,13 @@ background-color: rgb(255, 235, 242);
 @media screen and (max-width: 600px) {
     .container {
         width: 100%;
+        height: auto;
     }
+    .img-inicio {
+        width: 100%;
+    }
+ nav {
+    flex-direction: column;
+ }
+ 
 }
